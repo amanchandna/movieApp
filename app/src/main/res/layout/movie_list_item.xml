@@ -4,48 +4,45 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@android:drawable/dialog_holo_light_frame"
+    android:minHeight="?android:attr/listPreferredItemHeight"
     android:baselineAligned="true"
    >
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="0sp"
         android:layout_weight="2"
         android:id="@+id/movieListItemTitleTextView"
         android:text="moviename"
-       android:gravity="center_vertical"
-        android:textSize="25dp"
+       android:gravity="center"
+        android:textSize="25sp"
 
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:paddingLeft="20dp"
+        android:layout_marginTop="7sp"
+        android:layout_marginRight="7sp"
+        android:layout_marginLeft="7sp"
+
         android:textColor="#070701"
         android:textColorHighlight="#0e0000"
         android:background="#ffffff"
         android:capitalize="sentences"
         android:elegantTextHeight="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+
         android:textAlignment="center" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="0sp"
         android:layout_weight="2"
         android:id="@+id/movieListItemPopularityTextView"
-        android:text="Popularity:"
-        android:gravity="center_vertical"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textSize="16dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:text="POPULARITY:"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
         android:textColor="#03050d"
         android:background="@android:color/background_light"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+
         android:autoText="true" />
 
 

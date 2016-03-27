@@ -41,8 +41,8 @@ public class MovieListAdapter extends ArrayAdapter<Movie> {
         MovieListViewHolder mvh=
                 (MovieListViewHolder) convertView.getTag();
         Movie curMovie=movieArrayList.get(position);
-        mvh.moviePopularityTextView.setText((mvh.moviePopularityTextView.getText()+
-                String.valueOf(curMovie.moviePopularity)).toUpperCase());
+        mvh.moviePopularityTextView.setText("POPULARITY:"+
+                String.valueOf(curMovie.moviePopularity));
         mvh.movieTitletextView.setText(curMovie.movieName.toUpperCase());
 
 
