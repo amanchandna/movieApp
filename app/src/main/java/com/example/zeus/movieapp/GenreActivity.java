@@ -69,7 +69,7 @@ public class GenreActivity extends AppCompatActivity {
                             Intent i=new Intent();
                             i.setClass(GenreActivity.this,MovieListByGenreActivity.class);
                             i.putExtra("genreId",detail.getGenre_id());
-
+                            startActivity(i);
 
 
                         }

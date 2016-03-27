@@ -10,17 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:gravity="center_horizontal"
     tools:context="com.example.zeus.movieapp.MainActivity">
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/b1"
-    android:text="please click me"/>
+
 
     <TextView
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Welcome To MoviesDb App!"
         android:textSize="22dp"
         android:textColor="#c312d3"
         android:id="@+id/textView" />

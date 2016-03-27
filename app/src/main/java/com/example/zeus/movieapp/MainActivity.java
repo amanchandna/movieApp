@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent i=new Intent();
                     Toast.makeText(MainActivity.this, "Welcome "+sessionObj.userName,
                             Toast.LENGTH_LONG).show();
-                    i.setClass(MainActivity.this, MovieListByGenreActivity.class);
+                    i.setClass(MainActivity.this, GenreActivity.class);
                     startActivity(i);
 
                     //start Tanvi's Activity here
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                                                                 //start Tanvi's Activity here
                                                                 Toast.makeText(MainActivity.this, "Tanvi ki activity start karo",
                                                                         Toast.LENGTH_LONG).show();
-                                                                i.setClass(MainActivity.this, MovieListByGenreActivity.class);
+                                                                i.setClass(MainActivity.this, GenreActivity.class);
                                                                 startActivity(i);
 
                                                             }else{
