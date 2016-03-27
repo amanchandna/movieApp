@@ -11,5 +11,7 @@
 <ListView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/movieListByGenreListview"></ListView>
+    android:id="@+id/movieListByGenreListview"
+    android:background="#f7f6ec"
+    ></ListView>
 </LinearLayout>

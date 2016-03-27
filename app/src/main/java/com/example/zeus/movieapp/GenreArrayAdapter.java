@@ -43,7 +43,7 @@ public class GenreArrayAdapter extends ArrayAdapter<GenreDetail>
        GenreDetail currentGenre = genredetail.get(position);
 
         ViewHolder vh = (ViewHolder) convertView.getTag();
-        vh.Genrename.setText(currentGenre.getGenre_name());
+        vh.Genrename.setText(currentGenre.getGenre_name().toUpperCase());
 
 
 

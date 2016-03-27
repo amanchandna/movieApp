@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:baselineAligned="true"
+   >
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:id="@+id/movieListItemTitleTextView"
-        android:text="blah2"
-        android:textSize="22dp" />
+        android:text="moviename"
+       android:gravity="center_vertical"
+        android:textSize="25dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#070701"
+        android:textColorHighlight="#0e0000"
+        android:background="#ffffff"
+        android:capitalize="sentences"
+        android:elegantTextHeight="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:id="@+id/movieListItemPopularityTextView"
-        android:text="Popularity- "
-        android:textSize="22dp" />
+        android:text="Popularity:"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#03050d"
+        android:background="@android:color/background_light"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:autoText="true" />
 
 
 </LinearLayout>
